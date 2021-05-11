@@ -6,17 +6,18 @@ const styles = {
     }
 }
 
-
 const Jumbotron = () => {
-    return ( 
-        <div className="jum">
-              <div className="jumbotron" style={styles.jumbotron}>
+    return (
+        
+        <div className="jum" >           
+        <div className="jumbotron" style={styles.jumbotron}>
             <h1 className="display-4 text-center">Full Stack Web Developer</h1>
             <hr className="my-4 hrstyle" />
             <p className="lead text-center">HTML | CSS | JavaScript| React | Express | MongoDB </p>
-        </div>   
         </div>
-     );
+
+        </div>
+    );
 }
- 
+
 export default Jumbotron;
