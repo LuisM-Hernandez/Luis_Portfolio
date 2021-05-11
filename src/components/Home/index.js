@@ -1,10 +1,16 @@
 import Navbar from "../Navbar/index";
+import Jumbotron from "../Jumbotron/index";
+import "./style.css";
 
 
 const Home = () => {
     return ( 
-        
-        <Navbar/>
+        <div className="wrapper">
+            <Jumbotron/>
+        <div className="wrapper">
+         
+        </div>
+        </div>
      );
 }
  

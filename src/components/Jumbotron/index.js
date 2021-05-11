@@ -1,6 +1,6 @@
 const styles = {
     jumbotron:{
-        background:"#70A087",
+        background:"#94A9AF",
         color: "#E6F7F5",
         margin: 100
     }
