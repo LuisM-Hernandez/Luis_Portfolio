@@ -1,8 +1,8 @@
 import './App.css';
-// import Jumbotron from './components/Jumbotron/index';
 import Home from "./components/Home/index";
 import About from "./components/About/index";
 import Navbar from "./components/Navbar/index";
+import Projects from "./components/Projects/index";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
      <Navbar/>
      <Route exact path="/" component={Home} />
     <Route exact path="/about" component={About} />
+    <Route exact path="/projects" component={Projects} />
         
    </Router>
   );
