@@ -1,7 +1,6 @@
 import Navbar from "../Navbar"
 import "./style.css";
 
-
 const styles = {
     about: {
         padding: 140
@@ -10,6 +9,7 @@ const styles = {
 
 const About = () => {
     return ( 
+        
         <section className="about" style={styles.about}>
         <div className="row">
 
