@@ -4,6 +4,7 @@ const styles = {
         color: "#E6F7F5",
         margin: 100
     }
+    
 }
 
 const Jumbotron = () => {

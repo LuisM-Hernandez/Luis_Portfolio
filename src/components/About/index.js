@@ -10,7 +10,7 @@ const styles = {
 const About = () => {
     return ( 
         
-        <section className="about" style={styles.about}>
+        <section id="about" className="about" style={styles.about}>
         <div className="row">
 
             <div class="col-lg-4 mx-auto">
