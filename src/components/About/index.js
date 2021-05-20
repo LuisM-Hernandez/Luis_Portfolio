@@ -1,7 +1,6 @@
 import Navbar from "../Navbar"
 import "./style.css";
 
-
 const styles = {
     about: {
         padding: 140
@@ -10,12 +9,13 @@ const styles = {
 
 const About = () => {
     return ( 
+        
         <section className="about" style={styles.about}>
         <div className="row">
 
             <div class="col-lg-4 mx-auto">
                 <div class="photo">
-                    <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHw7zG7YwlRXg/profile-displayphoto-shrink_400_400/0/1597421124154?e=1620259200&v=beta&t=7CT9brWbL8_N7fvj0WiS7Vezd-fkpJqopZyEcEQ0VCw" class="card-img-top rounded-circle" alt="profilephoto" />
+                    <img src="" class="card-img-top rounded-circle" alt="profilephoto" />
                 </div>
             </div>
             <div class="col-lg-8 mx-auto">

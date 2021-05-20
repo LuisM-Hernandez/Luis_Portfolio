@@ -7,8 +7,8 @@ const styles = {
 }
 
 const Projects = () => {
-    return ( 
-      
+    return (
+
         <div className="wrapper">
             <header class="head-color text-black">
                 <div class="container text-center">
@@ -73,7 +73,7 @@ const Projects = () => {
                 </div>
             </section>
         </div>
-     );
+    );
 }
- 
+
 export default Projects;
