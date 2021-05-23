@@ -1,17 +1,13 @@
 import Navbar from "../Navbar"
+import profilepic from "../About/profilephoto.jpg"
 import "./style.css";
+
+
 
 const styles = {
     about: {
         padding: 140
     },
-
-    badger:{
-        width: 330,
-        height: 186,
-        border: 0
-
-    }
 }
 
 const About = () => {
@@ -22,7 +18,7 @@ const About = () => {
 
             <div class="col-lg-4 mx-auto">
                 <div class="photo">
-                    <img src="" class="card-img-top rounded-circle" alt="profilephoto" />
+                    <img src={profilepic} class="card-img-top rounded-circle" alt="profilephoto" />
                 </div>
             </div>
             <div class="col-lg-8 mx-auto">
