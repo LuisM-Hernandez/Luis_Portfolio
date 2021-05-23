@@ -4,6 +4,13 @@ import "./style.css";
 const styles = {
     about: {
         padding: 140
+    },
+
+    badger:{
+        width: 330,
+        height: 186,
+        border: 0
+
     }
 }
 
@@ -20,10 +27,22 @@ const About = () => {
             </div>
             <div class="col-lg-8 mx-auto">
                 <h2>About Me</h2>
-                <p class="lead">Future web/software developer with 3 years of experience in electronics manufacturing and 4
+                <p class="lead">
+                    
+                    I'm a web developer with 3 years of experience in electronics manufacturing and management. Goal oriented and passionate about learning new technologies. Proficient in english and spanish. Currently living in Kissimmee, Florida. I finished an associates in networking and got a certificate as a Full Stack Web Dev from the UCF.
+
+                    {/* Future web/software developer with 3 years of experience in electronics manufacturing and 4
                 years in retail management. Proficient in english and spanish with a very short experience on C#. Originally
                 from Gurabo, Puerto Rico and currently living in Kissimmee, Florida. I finished an associates in networking
-        and now I'm working towards my carreer in web and software development.</p>
+        and now I'm working towards my carreer in web and software development.  */}
+         </p>
+
+         <iframe src="https://api.badgr.io/public/assertions/-aTK6j42SuyJlqlTgy9QBQ?embedVersion=1&amp;embedWidth=330&amp;embedHeight=186&amp;identity__email=m.luishernandez%40outlook.com" title="Badge: UCF Coding Boot Camp (Full-Stack Web Development)[Full-Time]" style={styles.badger}>
+
+         </iframe>
+
+
+
             </div>
 
 

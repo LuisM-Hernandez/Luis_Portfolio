@@ -1,13 +1,14 @@
 import Navbar from "../Navbar/index";
 import Jumbotron from "../Jumbotron/index";
 import About from "../About/index";
+import Projects from "../Projects/index";
+import Contact from "../Contact/index";
 import "./style.css";
-import Projects from "../Projects";
 
 
 const Home = () => {
     return ( 
-        <div className="wrapper">
+        <div id="home" className="wrapper">
             <Jumbotron/>
 
             <div className="wrapper">
@@ -16,6 +17,9 @@ const Home = () => {
 
             <div className="wrapper">
                 <Projects/>
+            </div>
+            <div className="wrapper">
+                <Contact/>
             </div>
         </div>
      );

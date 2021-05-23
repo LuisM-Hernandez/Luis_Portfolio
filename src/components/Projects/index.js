@@ -23,12 +23,24 @@ const Projects = () => {
                             <img src="https://media0.giphy.com/media/3Ytdt5XnyCNMLjhHWA/giphy.gif" width="300px" height="250px" alt=" placeholder" />
                             <p>An app that will help the user monitor their caloric intake and
                             show them the nutrition facts of the items they are consuming. </p>
+                            
+
+                            <div class="box-1">
+                                <div class="btn btn-one">
+                                    
+                                    <span>Repository</span>
+                                </div>
+                            </div>
+
                             <button type="button" class=" mr-3 btn-sm btn-1" >
                                 <a href="https://github.com/v1zconde/The_Guilty_One" target="_blank" class="webref"> Repository </a>
                             </button>
+
                             <button type="button" class=" mr-3 btn-sm btn-2" >
                                 <a href="https://v1zconde.github.io/The_Guilty_One" target="_blank" class="webref2"> Deployed </a>
                             </button>
+
+                        
                         </div>
 
                         <div class="col-lg-3 mx-auto">
