@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/Luis_Portfolio/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/Luis_Portfolio/static/js/main.1d01b5a8.chunk.js",
-    "main.js.map": "/Luis_Portfolio/static/js/main.1d01b5a8.chunk.js.map",
-    "runtime-main.js": "/Luis_Portfolio/static/js/runtime-main.3fb3a22a.js",
-    "runtime-main.js.map": "/Luis_Portfolio/static/js/runtime-main.3fb3a22a.js.map",
-    "static/js/2.bee79c29.chunk.js": "/Luis_Portfolio/static/js/2.bee79c29.chunk.js",
-    "static/js/2.bee79c29.chunk.js.map": "/Luis_Portfolio/static/js/2.bee79c29.chunk.js.map",
-    "static/js/3.a215d180.chunk.js": "/Luis_Portfolio/static/js/3.a215d180.chunk.js",
-    "static/js/3.a215d180.chunk.js.map": "/Luis_Portfolio/static/js/3.a215d180.chunk.js.map",
+    "main.css": "/Luis_Portfolio/static/css/main.baf5ffdf.chunk.css",
+    "main.js": "/Luis_Portfolio/static/js/main.5af09d90.chunk.js",
+    "main.js.map": "/Luis_Portfolio/static/js/main.5af09d90.chunk.js.map",
+    "runtime-main.js": "/Luis_Portfolio/static/js/runtime-main.9bc35afb.js",
+    "runtime-main.js.map": "/Luis_Portfolio/static/js/runtime-main.9bc35afb.js.map",
+    "static/css/2.800be05e.chunk.css": "/Luis_Portfolio/static/css/2.800be05e.chunk.css",
+    "static/js/2.be8d851b.chunk.js": "/Luis_Portfolio/static/js/2.be8d851b.chunk.js",
+    "static/js/2.be8d851b.chunk.js.map": "/Luis_Portfolio/static/js/2.be8d851b.chunk.js.map",
     "index.html": "/Luis_Portfolio/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/Luis_Portfolio/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.bee79c29.chunk.js.LICENSE.txt": "/Luis_Portfolio/static/js/2.bee79c29.chunk.js.LICENSE.txt"
+    "static/css/2.800be05e.chunk.css.map": "/Luis_Portfolio/static/css/2.800be05e.chunk.css.map",
+    "static/css/main.baf5ffdf.chunk.css.map": "/Luis_Portfolio/static/css/main.baf5ffdf.chunk.css.map",
+    "static/js/2.be8d851b.chunk.js.LICENSE.txt": "/Luis_Portfolio/static/js/2.be8d851b.chunk.js.LICENSE.txt",
+    "static/media/profilephoto.8e995266.jpg": "/Luis_Portfolio/static/media/profilephoto.8e995266.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3fb3a22a.js",
-    "static/js/2.bee79c29.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.1d01b5a8.chunk.js"
+    "static/js/runtime-main.9bc35afb.js",
+    "static/css/2.800be05e.chunk.css",
+    "static/js/2.be8d851b.chunk.js",
+    "static/css/main.baf5ffdf.chunk.css",
+    "static/js/main.5af09d90.chunk.js"
   ]
 }
