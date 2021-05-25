@@ -9,7 +9,9 @@ import "./style.css";
 const Home = () => {
     return ( 
         <div id="home" className="wrapper">
-            <Jumbotron/>
+            <section className="top">
+                <Jumbotron/>
+            </section>
 
             <div className="wrapper">
                 <About/>
