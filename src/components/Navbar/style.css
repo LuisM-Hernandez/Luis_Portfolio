@@ -3,5 +3,10 @@ html {
   }
 
 .navbar{
-    background-color: #68838B;
+    background-color: transparent;
 }
+
+.navbar-brand{
+  color: white;
+}
+

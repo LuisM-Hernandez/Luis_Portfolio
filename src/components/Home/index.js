@@ -1,5 +1,5 @@
 import Navbar from "../Navbar/index";
-import Jumbotron from "../Jumbotron/index";
+import Header from "../Header/index";
 import About from "../About/index";
 import Projects from "../Projects/index";
 import Contact from "../Contact/index";
@@ -7,24 +7,27 @@ import "./style.css";
 
 
 const Home = () => {
-    return ( 
+    return (
+
         <div id="home" className="wrapper">
             <section className="top">
-                <Jumbotron/>
+                <Navbar />
+                <Header />
+
             </section>
 
             <div className="wrapper">
-                <About/>
+                <About />
             </div>
 
             <div className="wrapper">
-                <Projects/>
+                <Projects />
             </div>
             <div className="wrapper">
-                <Contact/>
+                <Contact />
             </div>
         </div>
-     );
+    );
 }
- 
+
 export default Home;
