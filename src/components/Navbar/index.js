@@ -1,6 +1,12 @@
 import "./style.css";
 
-
+const style = {
+  icons: {
+      fontSize: 20,
+      margin: 10,
+      color: "White"
+  }
+}
 const Navbar = () => {
   return (
 

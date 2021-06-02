@@ -1,11 +1,14 @@
 import "./style.scss";
+import { FiGithub } from 'react-icons/fi';
 
+const style = {
+    icons: {
+        fontSize: 50,
+        margin: 10,
+        color: "White"
+    }
+}
 
-// const styles = {
-//     projects: {
-//         margin: -90
-//     }
-// }
 const Projects = () => {
     return (
 
@@ -14,7 +17,7 @@ const Projects = () => {
             <h1 className="text-center">Projects</h1>
 
             <div class="col-lg-12 mx-auto text-center m-5">
-                
+
                 <div class="row mx-auto " >
 
                     <div class="col-lg-3 mx-auto">
@@ -24,11 +27,15 @@ const Projects = () => {
                         <p>An app that will help the user monitor their caloric intake and
                             show them the nutrition facts of the items they are consuming. </p>
 
-                            <a class="btn-draw" href="https://v1zconde.github.io/The_Guilty_One" target="_blank"><span>Deployed</span></a>
-                            {/* <a class="btn-draw" href="https://github.com/v1zconde/The_Guilty_One" target="_blank"><span>Repository</span></a> */}
+                        <a href="https://github.com/v1zconde/The_Guilty_One" target="_blank" style={style.icons}><FiGithub /></a>
 
-                            
-                            {/* <a href="https://github.com/v1zconde/The_Guilty_One" target="_blank" class="btn-draw"> Repository </a>
+
+                        <a class="btn-draw" href="https://v1zconde.github.io/The_Guilty_One" target="_blank"><span>Deployed</span></a>
+
+                        {/* <a class="btn-draw" href="https://github.com/v1zconde/The_Guilty_One" target="_blank"><span>Repository</span></a> */}
+
+
+                        {/* <a href="https://github.com/v1zconde/The_Guilty_One" target="_blank" class="btn-draw"> Repository </a>
                             <a href="https://v1zconde.github.io/The_Guilty_One" target="_blank" class="btn-draw"> Deployed </a> */}
 
                     </div>
@@ -40,9 +47,11 @@ const Projects = () => {
                         <p>An application that let the user search for any flower or plant on the database and
                              pull it's entire description.</p>
 
-                             <a class="btn-draw" href="https://github.com/emmabauta/theGreenThumb" target="_blank"><span>Deployed</span></a>
+                        <a href="" target="_blank" style={style.icons}><FiGithub /></a>
+                        <a class="btn-draw" href="https://github.com/emmabauta/theGreenThumb" target="_blank"><span>Deployed</span></a>
 
-                            {/* <a href="https://github.com/emmabauta/theGreenThumb" target="_blank" class="webref"> Repository </a>
+
+                        {/* <a href="https://github.com/emmabauta/theGreenThumb" target="_blank" class="webref"> Repository </a>
                             <a href="https://github.com/emmabauta/theGreenThumb" target="_blank" class="webref2"> Deployed </a> */}
 
                     </div>
@@ -54,10 +63,11 @@ const Projects = () => {
                         <p>A business hours day planner that takes the users input and
           stores it on the local storage. Built in with moments.js</p>
 
-          
-          <a class="btn-draw" href="https://luism-hernandez.github.io/day_planner/" target="_blank"><span>Deployed</span></a>
+                        <a href="" target="_blank" style={style.icons}><FiGithub /></a>
 
-                            {/* <a href="https://github.com/LuisM-Hernandez/day_planner" target="_blank" class="webref"> Repository </a>
+                        <a class="btn-draw" href="https://luism-hernandez.github.io/day_planner/" target="_blank"><span>Deployed</span></a>
+
+                        {/* <a href="https://github.com/LuisM-Hernandez/day_planner" target="_blank" class="webref"> Repository </a>
                             <a href="https://luism-hernandez.github.io/day_planner/" target="_blank" class="webref2"> Deployed </a> */}
                     </div>
 
@@ -68,15 +78,16 @@ const Projects = () => {
                         <p>Burger Logger is a restaurant app that lets users input the names of burgers they'd like to eat and move it to a wait or devour list.</p>
 
 
-                            {/* <a href="https://github.com/LuisM-Hernandez/burger_logger_app" target="_blank" class="webref"> Repository </a>
+                        {/* <a href="https://github.com/LuisM-Hernandez/burger_logger_app" target="_blank" class="webref"> Repository </a>
                             <a href="https://gentle-crag-34867.herokuapp.com/" target="_blank" class="webref2"> Deployed </a> */}
-                        
+
+                        <a href="" target="_blank" style={style.icons}><FiGithub /></a>
 
                         <a class="btn-draw" href="https://gentle-crag-34867.herokuapp.com/" target="_blank"><span>Deployed</span></a>
 
 
-                        
-                        
+
+
                     </div>
 
                 </div>

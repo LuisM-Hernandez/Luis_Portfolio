@@ -3,7 +3,7 @@ import { GrMail } from 'react-icons/gr';
 
 const style = {
     icons: {
-        fontSize: 64,
+        fontSize: 50,
     }
 }
 
