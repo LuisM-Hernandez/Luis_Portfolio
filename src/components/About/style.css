@@ -3,7 +3,24 @@
     color: white;
 }
 
+.header-primary{
+  line-height: 3em;
+  
+
+}
+
 .photo{
     height: 375px;
   width: 350px;
 }
+
+.about-content{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.about-text {
+    flex: 0 0 35%;
+}
+

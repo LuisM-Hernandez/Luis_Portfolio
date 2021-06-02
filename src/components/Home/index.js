@@ -9,23 +9,16 @@ import "./style.css";
 const Home = () => {
     return (
 
+
         <div id="home" className="wrapper background">
-                <Navbar />
-                <Header />
-            <section className="">
+            <Navbar />
+            <Header />
 
-            </section>
-
-            <div className="wrapper">
-                <About />
-            </div>
-
-            <div className="wrapper">
-                <Projects />
-            </div>
-            <div className="wrapper">
-                <Contact />
-            </div>
+            <About />
+{/* 
+            <Projects />
+            
+            <Contact /> */}
         </div>
     );
 }

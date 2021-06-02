@@ -1,5 +1,7 @@
-body{
+html,body{
+    overflow-x: hidden;
     background-color: #00688B;
+
 }
 
 .background{
