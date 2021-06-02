@@ -1,4 +1,4 @@
-import "./style.css";
+import "./style.scss";
 
 
 // const styles = {
@@ -23,12 +23,13 @@ const Projects = () => {
                         <img src="https://media0.giphy.com/media/3Ytdt5XnyCNMLjhHWA/giphy.gif" width="300px" height="250px" alt=" placeholder" />
                         <p>An app that will help the user monitor their caloric intake and
                             show them the nutrition facts of the items they are consuming. </p>
-                        <button type="button" class=" mr-3 btn-sm btn-1 m-1" >
-                            <a href="https://github.com/v1zconde/The_Guilty_One" target="_blank" class="webref"> Repository </a>
-                        </button>
-                        <button type="button" class=" mr-3 btn-sm btn-2 m-1" >
-                            <a href="https://v1zconde.github.io/The_Guilty_One" target="_blank" class="webref2"> Deployed </a>
-                        </button>
+
+                            <a class="btn-draw" href="https://v1zconde.github.io/The_Guilty_One" target="_blank"><span>Deployed</span></a>
+                            {/* <a class="btn-draw" href="https://github.com/v1zconde/The_Guilty_One" target="_blank"><span>Repository</span></a> */}
+
+                            
+                            {/* <a href="https://github.com/v1zconde/The_Guilty_One" target="_blank" class="btn-draw"> Repository </a>
+                            <a href="https://v1zconde.github.io/The_Guilty_One" target="_blank" class="btn-draw"> Deployed </a> */}
 
                     </div>
 
@@ -38,12 +39,11 @@ const Projects = () => {
                         <img src="https://media.giphy.com/media/TlGLPCAX4SBOBSwmOd/giphy.gif" width="300px" height="250px" alt=" placeholder" />
                         <p>An application that let the user search for any flower or plant on the database and
                              pull it's entire description.</p>
-                        <button type="button" class=" mr-3 btn-sm btn-1 m-1" >
-                            <a href="https://github.com/emmabauta/theGreenThumb" target="_blank" class="webref"> Repository </a>
-                        </button>
-                        <button type="button" class=" mr-3 btn-sm btn-2 m-1" >
-                            <a href="https://github.com/emmabauta/theGreenThumb" target="_blank" class="webref2"> Deployed </a>
-                        </button>
+
+                             <a class="btn-draw" href="https://github.com/emmabauta/theGreenThumb" target="_blank"><span>Deployed</span></a>
+
+                            {/* <a href="https://github.com/emmabauta/theGreenThumb" target="_blank" class="webref"> Repository </a>
+                            <a href="https://github.com/emmabauta/theGreenThumb" target="_blank" class="webref2"> Deployed </a> */}
 
                     </div>
 
@@ -53,13 +53,12 @@ const Projects = () => {
                         <img src="https://media.giphy.com/media/LkZl3KVXpHTTBhbyeR/giphy.gif" width="300px" height="250px" alt=" placeholder" />
                         <p>A business hours day planner that takes the users input and
           stores it on the local storage. Built in with moments.js</p>
-                        <button type="button" class=" mr-3 btn-sm btn-1 m-1"  >
-                            <a href="https://github.com/LuisM-Hernandez/day_planner" target="_blank" class="webref"> Repository </a>
-                        </button>
-                        <button type="button" class=" mr-3 btn-sm btn-2 m-1" >
-                            <a href="https://luism-hernandez.github.io/day_planner/" target="_blank" class="webref2"> Deployed </a>
-                        </button>
 
+          
+          <a class="btn-draw" href="https://luism-hernandez.github.io/day_planner/" target="_blank"><span>Deployed</span></a>
+
+                            {/* <a href="https://github.com/LuisM-Hernandez/day_planner" target="_blank" class="webref"> Repository </a>
+                            <a href="https://luism-hernandez.github.io/day_planner/" target="_blank" class="webref2"> Deployed </a> */}
                     </div>
 
                     <div class="col-lg-3 mx-auto">
@@ -67,12 +66,16 @@ const Projects = () => {
                         <h2>8-Bit Burger</h2>
                         <img src="https://media.giphy.com/media/GoUem3Ls6i6mDzV1EE/giphy.gif" width="300px" height="250px" alt=" placeholder" />
                         <p>Burger Logger is a restaurant app that lets users input the names of burgers they'd like to eat and move it to a wait or devour list.</p>
-                        <button type="button" class=" mr-3 btn-sm btn-1 m-1" >
-                            <a href="https://github.com/LuisM-Hernandez/burger_logger_app" target="_blank" class="webref"> Repository </a>
-                        </button>
-                        <button type="button" class=" mr-3 btn-sm btn-2 m-1" >
-                            <a href="https://gentle-crag-34867.herokuapp.com/" target="_blank" class="webref2"> Deployed </a>
-                        </button>
+
+
+                            {/* <a href="https://github.com/LuisM-Hernandez/burger_logger_app" target="_blank" class="webref"> Repository </a>
+                            <a href="https://gentle-crag-34867.herokuapp.com/" target="_blank" class="webref2"> Deployed </a> */}
+                        
+
+                        <a class="btn-draw" href="https://gentle-crag-34867.herokuapp.com/" target="_blank"><span>Deployed</span></a>
+
+
+                        
                         
                     </div>
 

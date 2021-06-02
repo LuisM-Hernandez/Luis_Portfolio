@@ -18,7 +18,7 @@ const About = () => {
 
                 <div class="col-lg-4 mx-auto">
                     <div class="photo">
-                        <img src={profilepic} class="card-img-top rounded-circle" alt="profilephoto" />
+                        <img src={profilepic} class="card-img-top rounded-circle photo" alt="profilephoto" />
                     </div>
                 </div>
                 <div class="col-lg-8 mx-auto">
@@ -36,6 +36,8 @@ const About = () => {
                     <iframe src="https://api.badgr.io/public/assertions/-aTK6j42SuyJlqlTgy9QBQ?embedVersion=1&amp;embedWidth=330&amp;embedHeight=186&amp;identity__email=m.luishernandez%40outlook.com" title="Badge: UCF Coding Boot Camp (Full-Stack Web Development)[Full-Time]" style={styles.badger}>
 
                     </iframe>
+
+                    
 
                     
 
