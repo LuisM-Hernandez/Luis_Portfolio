@@ -2,7 +2,7 @@ body{
     background-color: #00688B;
 }
 
-.top{
+.background{
     /* background-image:url("https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80"); */
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
         url("https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80");

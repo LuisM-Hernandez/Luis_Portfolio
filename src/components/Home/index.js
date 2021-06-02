@@ -9,10 +9,10 @@ import "./style.css";
 const Home = () => {
     return (
 
-        <div id="home" className="wrapper">
-            <section className="top">
+        <div id="home" className="wrapper background">
                 <Navbar />
                 <Header />
+            <section className="">
 
             </section>
 
