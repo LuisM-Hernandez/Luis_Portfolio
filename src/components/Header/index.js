@@ -1,23 +1,20 @@
-import "./style.css";
+import "./style.scss";
 
-// const styles = {
-//     header: {
-//         background: "black",
-//         color: "#E6F7F5",
-//         margin: 100
-        
-//     }
 
-// }
 
 const Header = () => {
     return (
 
         <div className="l">
             <h1 class="heading-primary">
-          <span>Syed Ali Hussnain</span>
-        </h1>
-        
+                <span>Luis Hernandez</span>
+            </h1>
+
+            <p class="text">Web Developer| HTML | CSS | Javascript</p>
+            <a class="btn-draw" href="#contact"><span>Contact Me</span></a>
+
+
+            {/* <h2><a class="effect6" href="#"><span>6 Link Hover Effect</span></a></h2> */}
         </div>
 
     );
