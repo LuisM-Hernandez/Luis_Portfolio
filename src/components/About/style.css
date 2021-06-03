@@ -5,13 +5,13 @@
 
 .header-primary{
   line-height: 3em;
-  
-
+  margin-left: 65px;
 }
 
 .photo{
     height: 375px;
   width: 350px;
+  padding-bottom: 20px;
 }
 
 .about-content{

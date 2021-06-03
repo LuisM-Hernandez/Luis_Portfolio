@@ -13,12 +13,10 @@ const Home = () => {
         <div id="home" className="wrapper background">
             <Navbar />
             <Header />
-
             <About />
-{/* 
             <Projects />
+            {/* <Contact /> */}
             
-            <Contact /> */}
         </div>
     );
 }

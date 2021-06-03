@@ -2,13 +2,6 @@ import profilepic from "../About/profilephoto.jpg"
 import "./style.css";
 
 
-
-// const styles = {
-//     about: {
-//         padding: 140
-//     },
-// }
-
 const About = () => {
     return (
 

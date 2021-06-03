@@ -1,18 +1,21 @@
 import "./style.scss";
 import { FaLinkedin } from 'react-icons/fa';
 import { FiGithub } from 'react-icons/fi';
+import { GrMail } from 'react-icons/gr';
+
 
 const style = {
     linkedin: {
         fontSize: 40,
         color:"White",
-        padding:45
+        padding:20
 
     },
 
-    github:{
+    icons:{
         fontSize: 40,
         color:"White",
+        padding:12
 
     }
 }
@@ -29,10 +32,11 @@ const Header = () => {
 
             <p class="text">Web Developer| HTML | CSS | Javascript</p>
             {/* <a class="btn-draw" href="#contact"><span>Contact Me</span></a> */}
+            <h4>Contact Me</h4>
 
             <a href="https://www.linkedin.com/in/luis-hernandez-1a55811b4/" target="_blank" style={style.linkedin}><FaLinkedin /></a>
-
-            <a href="https://github.com/LuisM-Hernandez" target="_blank" style={style.github}><FiGithub /></a>
+            <a href="mailto:m.luishernandez@outlook.com" style={style.icons}><GrMail /></a>
+            <a href="https://github.com/LuisM-Hernandez" target="_blank" style={style.icons}><FiGithub /></a>
 
             
         </div>

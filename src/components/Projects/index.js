@@ -4,7 +4,7 @@ import { FiGithub } from 'react-icons/fi';
 const style = {
     icons: {
         fontSize: 50,
-        margin: 10,
+        marginBottom: 10,
         color: "White"
     }
 }
@@ -12,14 +12,12 @@ const style = {
 const Projects = () => {
     return (
 
-        <div className="wrapper project" id="projects">
-
-            <h1 className="text-center">Projects</h1>
+        <section className="projects project" id="projects">
+            <h1 className="h1-primary">Projects</h1>
 
             <div class="col-lg-12 mx-auto text-center m-5">
 
-                <div class="row mx-auto " >
-
+                <div class="row mx-auto" >
                     <div class="col-lg-3 mx-auto">
 
                         <h2>The Guilty One</h2>
@@ -92,7 +90,7 @@ const Projects = () => {
 
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 
