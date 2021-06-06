@@ -5,17 +5,11 @@ import { GrMail } from 'react-icons/gr';
 
 
 const style = {
-    linkedin: {
-        fontSize: 40,
-        color:"White",
-        padding:20
-
-    },
 
     icons:{
         fontSize: 40,
         color:"White",
-        padding:12
+        padding:17
 
     }
 }
@@ -34,7 +28,7 @@ const Header = () => {
             {/* <a class="btn-draw" href="#contact"><span>Contact Me</span></a> */}
             <h4>Contact Me</h4>
 
-            <a href="https://www.linkedin.com/in/luis-hernandez-1a55811b4/" target="_blank" style={style.linkedin}><FaLinkedin /></a>
+            <a href="https://www.linkedin.com/in/luis-hernandez-1a55811b4/" target="_blank" style={style.icons}><FaLinkedin /></a>
             <a href="mailto:m.luishernandez@outlook.com" style={style.icons}><GrMail /></a>
             <a href="https://github.com/LuisM-Hernandez" target="_blank" style={style.icons}><FiGithub /></a>
 

@@ -1,7 +1,9 @@
+
 .about{
     background-color: #00688B;
     color: white;
-}
+  border-bottom: thin black;
+  }
 
 .header-primary{
   line-height: 3em;
@@ -10,8 +12,10 @@
 
 .photo{
     height: 375px;
-  width: 350px;
+    width: 350px;
   padding-bottom: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
 }
 
 .about-content{
@@ -23,4 +27,3 @@
 .about-text {
     flex: 0 0 35%;
 }
-

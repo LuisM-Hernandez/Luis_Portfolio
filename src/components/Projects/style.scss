@@ -1,12 +1,16 @@
+
 .h1-primary{
   line-height: 3em;
+  margin-left: 65px;
 
 }
 
 .project{
-  background-color: rgb(38, 94, 121);
+  background-color: #00688B;
   color: antiquewhite;
 }
+
+
 
 // Mixin for drawing button with optional argument for width, padding, and time
 @mixin btn-draw($color, $color-hov, $width: 1px, $padding: 0.5em, $time: 0.2s) {
@@ -97,7 +101,7 @@
 
 // Color variables
 $color-blue: #e4e4e2;
-$color-grey: red;
+$color-grey: rgb(139, 108, 68);
 
 // Start of styling
 * {
