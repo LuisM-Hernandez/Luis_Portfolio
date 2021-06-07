@@ -2,7 +2,8 @@
 .about{
     background-color: #00688B;
     color: white;
-  border-bottom: thin black;
+    border-bottom: solid black;
+
   }
 
 .header-primary{
@@ -27,3 +28,4 @@
 .about-text {
     flex: 0 0 35%;
 }
+
